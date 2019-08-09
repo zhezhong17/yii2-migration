@@ -1,0 +1,22 @@
+{
+    "name": "zhezhong17/yii2-migration",
+    "description": "yii2逆向还原mysql表为migrate文件",
+    "type": "library",
+    "keywords": ["yii2","console","migration"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhezhong17",
+            "email": "2548551063@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "zhezhong17\\migration\\": ""
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
