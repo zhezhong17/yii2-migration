@@ -45,9 +45,9 @@ OR ```config\console.php``` 中添加 :
 
 在命令行中使用方式：
 ```
-php ./yii migrate/reversen all # 逆向生成全部表
-php ./yii migrate/reversen table1 #备份一张表
-php ./yii migrate/reversen table1,table2,table3... #备份多张表 
+php ./yii migrate/reverse all # 逆向生成全部表
+php ./yii migrate/reverse table1 #备份一张表
+php ./yii migrate/reverse table1,table2,table3... #备份多张表 
 
 php ./yii migrate/up #恢复全部表
 ```
@@ -55,7 +55,7 @@ php ./yii migrate/up #恢复全部表
 
 其他问题
 ````
-    1. php ./yii migrate/reversen table1, table2, table3... 这种写法是错误的，逗号后面有空格。参数识别不出来，请注意啊
+    1. php ./yii migrate/reverse table1, table2, table3... 这种写法是错误的，逗号后面有空格。参数识别不出来，请注意啊
 
     2. 为了保持百分百一致，所以生成的是SQL语句, migrations只是执行SQL语句。 不是我们平时写的那种migrations格式。 (不喜欢这个格式请换其他包， 当然后续也可能会改进生成的格式)  
 
