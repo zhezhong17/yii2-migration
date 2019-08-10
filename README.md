@@ -19,13 +19,13 @@
 --------------
 
 ```
-    composer require zhezhong17/yii2-migration "@dev"
+composer require zhezhong17/yii2-migration "@dev"
 ```
 
 OR
 
 ```
-    "zhezhong17/yii2-migration": "*"
+"zhezhong17/yii2-migration": "*"
 ```
 
 
